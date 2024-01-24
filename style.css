@@ -1,0 +1,24 @@
+html, body {
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  canvas {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    z-index: 9;
+  }
+
+#paper{
+    height: 100vh;
+    width: 100vw;
+}
